@@ -1,6 +1,6 @@
-Professor : Paul Nguyen
-Student : Vagdevi Junnuri (014926366)
-Course : CMPE 202
-Project : Implement CRC Cards
+Professor : Paul Nguyen <br/>
+Student : Vagdevi Junnuri (014926366) <br/>
+Course : CMPE 202 <br/>
+Project : Implement CRC Cards <br/>
 
 # CRC-Cards-and-Object-Collaborations
