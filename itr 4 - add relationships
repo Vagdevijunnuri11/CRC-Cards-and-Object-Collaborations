@@ -1,0 +1,18 @@
+itr 4 - add relationships
+
+[<<interface>>;A1]
+[<<interface>>;A2]
+[B1]
+[B2]
+[C1]
+[C2]
+[P]
+[C1|-x:int;-y:int(*)|+test(a1:A1):void]
+[C2|test(a2:A2):void]
+[C1]uses-.->[<<interface>>;A1],
+[<<interface>>;A1]^-.-[B1],
+[<<interface>>;A1]^-.-[B2],
+[P]^-[B1],
+[P]^-[B2],
+[<<interface>>;A2]^-.-[B2],
+[C2]uses -.->[<<interface>>;A2]
